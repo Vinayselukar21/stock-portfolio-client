@@ -39,6 +39,6 @@ export function useStocks() {
   return useQuery({
     queryKey: ["stocks"],
     queryFn: () => apiClient<ApiResponse<StockResponse[]>>(API.STOCKS),
-    refetchInterval: 21000,
+    refetchInterval: 20000,
   });
 }

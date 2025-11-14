@@ -226,7 +226,7 @@ The application expects the following backend endpoints:
 Stock data automatically refreshes every **21 seconds** using React Query's `refetchInterval`. This can be modified in `hooks/usePortfolioStocks.ts`:
 
 ```typescript
-refetchInterval: 21000, // 21 seconds in milliseconds
+refetchInterval: 20000, // 20 seconds in milliseconds
 ```
 
 ## 🧩 Key Components
