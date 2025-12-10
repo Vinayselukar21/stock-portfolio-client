@@ -48,7 +48,7 @@ export const SummaryCards = ({ summary }: SummaryCardsProps) => {
 
     return (
         <div className="grid gap-4 grid-cols-2 md:grid-cols-4 lg:grid-cols-4 mb-4">
-            {cards.map((card, index) => (
+            {cards.map((card) => (
                 <div key={card.label}>
                     <Card className="border-border hover:border-primary/20 transition-colors overflow-hidden p-0">
                         <CardContent className="p-4 lg:p-6">
